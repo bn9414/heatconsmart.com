@@ -144,7 +144,7 @@ var det1= document.getElementsByClassName('det1');
 
 
 function pmenu(n){
-        for(i=0;i<13;i++){  listm1[i].style.backgroundColor="#ffffff";
+        for(i=0;i<14;i++){  listm1[i].style.backgroundColor="#ffffff";
                          menup[i].style.color="#454545";
                              
     det1[i].style.display="none";

@@ -33,7 +33,7 @@
 html{ height: 100%;}
 body{background-color: #fcfcfc;}
 body * { box-sizing: border-box;}
-* h1,* h2{
+* h1,* h2,* h3{
 font-family: 'Lato', sans-serif;}
 * p,a{
     font-family: 'Roboto', sans-serif;}
@@ -265,7 +265,7 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
     .ftp1,.ftp2{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;margin-right: 30px}
 
 @media screen and (min-width:700px){
-    .foot1 p{width: 180px;margin-top: 20px;}
+    .foot1 p{width: 220px;margin-top: 20px;}
     .foot_con a{font-size: 17px;}
     .foot_con{display: flex;flex-direction: row;justify-content: center;;align-items: flex-start;}
     .ftp1,.ftp2{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;margin-right: 30px}
