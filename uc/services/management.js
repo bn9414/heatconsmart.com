@@ -46,6 +46,14 @@ if(w >= 700){
         mabar[3].style.animation="mabar 1s";
         mabar[3].style.display="block";
     }
+     if(document.body.scrollTop >= 1200||document.documentElement.scrollTop >= 1200){
+        sldh2[4].style.display="block"; 
+        sld[4].style.display="block";
+        manum[4].style.animation="manum 1s";
+        manum[4].style.display="block";
+        mabar[4].style.animation="mabar 1s";
+        mabar[4].style.display="block";
+    }
     
 }
  }
