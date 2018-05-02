@@ -1,3 +1,23 @@
+/*
+
+	$(window).load(function() {
+	
+		$(".se-pre-con").fadeOut("slow");;
+	
+    
+        
+
+
+function homeani()
+{
+
+}
+homeani();
+        
+	});
+*/
+
+
 var h = parseInt(window.innerHeight);
 
 var w = parseInt(window.innerWidth);
