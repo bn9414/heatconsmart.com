@@ -45,7 +45,7 @@ a{text-decoration: none !important; color: #c2c2c2; }
 body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 00px;}
  h1{
      font-size:24px;}
-* p{font-size: 16px}
+/** p{font-size: 16px}*/
 
 @media screen and (min-width:750px){
     * p{font-size: 16px}

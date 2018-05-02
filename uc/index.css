@@ -72,7 +72,7 @@
 .switch{
         position: absolute;
     right: 40px;
-    bottom: 20px;
+    bottom: 20px;display: none;
 }
     .txt-cap{
     position: absolute;
@@ -874,7 +874,7 @@ display: flex;}
 }
 
 @media screen and (min-width:600px){
-      .hdtxt{font-size: 20px;}
+      .hdtxt{font-size: 20px;top: 30px;}
     .sidebg{width: 240px;}
 
 }
@@ -889,12 +889,12 @@ display: flex;}
 
 @media screen and (min-width:900px){
         
-    .hdtxt{top: 30%;font-size: 35px;right: 10px;transform: translateY(-50%);width: 300px}
+    .hdtxt{top: 40%;font-size: 35px;right: 10px;transform: translateY(-50%);width: 300px}
     .sidebg{width: 410px;right: -40px;}
 
 }
 @media screen and (min-width:1200px){
-    .hdtxt{font-size: 35px;right: 30px}
+    .hdtxt{font-size: 35px;right: 30px;}
         .sidebg{width: 450px;right: -30px;}
 
 }
@@ -908,3 +908,4 @@ display: flex;}
 
 /*last edit*/
 /*E: side layer of slider*/
+.icon-ser{display: none;}

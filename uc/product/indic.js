@@ -25,9 +25,9 @@ var mainimg= document.getElementsByClassName('mainimg');
 var subimg= document.getElementsByClassName('subimg');
 
 function imageop(n){
-   for(i=0;i<7;i++){   mainimg[i].style.display="none";}
+   for(i=0;i<6;i++){   mainimg[i].style.display="none";}
 
-       for(i=0;i<7;i++){    subimg[i].style.border="1px solid #ffffff";}
+       for(i=0;i<6;i++){    subimg[i].style.border="1px solid #ffffff";}
     
     
     subimg[n].style.border="1px solid #b5b5b5";
@@ -47,7 +47,6 @@ subimg[3].addEventListener('click',function(){imageop(3);},false);
 subimg[4].addEventListener('click',function(){imageop(4);},false);
 subimg[5].addEventListener('click',function(){imageop(5);},false);
 
-subimg[6].addEventListener('click',function(){imageop(6);},false);
 
 
 
@@ -64,7 +63,7 @@ var det1= document.getElementsByClassName('det1');
 
 
 function pmenu(n){
-        for(i=0;i<14;i++){  listm1[i].style.backgroundColor="#ffffff";
+        for(i=0;i<12;i++){  listm1[i].style.backgroundColor="#ffffff";
                          menup[i].style.color="#454545";
                              
     det1[i].style.display="none";
@@ -93,8 +92,7 @@ listm1[8].addEventListener('click',function(){pmenu(8);},false);
 listm1[9].addEventListener('click',function(){pmenu(9);},false);
 listm1[10].addEventListener('click',function(){pmenu(10);},false);
 listm1[11].addEventListener('click',function(){pmenu(11);},false);
-listm1[12].addEventListener('click',function(){pmenu(12);},false);
-listm1[13].addEventListener('click',function(){pmenu(13);},false);
+
 
 
 var lmt= document.getElementsByClassName('lmt');
@@ -102,7 +100,7 @@ var lmtd= document.getElementsByClassName('lmtd');
 var closex= document.getElementsByClassName('closex');
 
 function popen(n){
-     for(i=0;i<7;i++){     lmt[i].style.display="none";
+     for(i=0;i<6;i++){     lmt[i].style.display="none";
 }
     
     lmtd[n].style.display="block";
@@ -113,7 +111,7 @@ function pclose(n){
     
     lmtd[n].style.display="none";
     
-         for(i=0;i<7;i++){    lmt[i].style.display="flex";
+         for(i=0;i<6;i++){    lmt[i].style.display="block";
 }
     
 }
@@ -130,8 +128,7 @@ lmt[4].addEventListener('click',function(){popen(4);;
 imageop(4);pmenu(8);},false);
 lmt[5].addEventListener('click',function(){popen(5);;
 imageop(5);pmenu(10);},false);
-lmt[6].addEventListener('click',function(){popen(6);;
-imageop(6);pmenu(12);},false);
+
 /*lmt[6].addEventListener('click',function(){popen(6);;
 imageop(24);pmenu(24);},false);*/
 
@@ -142,5 +139,5 @@ closex[2].addEventListener('click',function(){pclose(2);},false);
 closex[3].addEventListener('click',function(){pclose(3);},false);
 closex[4].addEventListener('click',function(){pclose(4);},false);
 closex[5].addEventListener('click',function(){pclose(5);},false);
-closex[6].addEventListener('click',function(){pclose(6);},false);
+
 /*closex[6].addEventListener('click',function(){pclose(6);},false);*/
