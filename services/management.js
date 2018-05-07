@@ -1,4 +1,3 @@
-/*
 
 	$(window).load(function() {
 	
@@ -15,7 +14,6 @@ function homeani()
 homeani();
         
 	});
-*/
 
 
 var h = parseInt(window.innerHeight);
