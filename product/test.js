@@ -113,7 +113,7 @@ function pclose(n){
     
     lmtd[n].style.display="none";
     
-         for(i=0;i<7;i++){    lmt[i].style.display="flex";
+         for(i=0;i<7;i++){    lmt[i].style.display="block";
 }
     
 }

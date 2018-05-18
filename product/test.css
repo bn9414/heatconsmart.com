@@ -1,3 +1,6 @@
+.lmt *{border: 1px olid black}
+
+body *{box-sizing: border-box;}
 @font-face {
   font-family: 'Blacksword';
   src: url('font/blacksword.eot'); /* IE9 Compat Modes */
@@ -77,8 +80,8 @@
 /* s: Product full*/
 
 .mach_con{width: 98%;height: auto;box-shadow: 5px 3px 20px 0px rgba(20, 20, 20, 0.2);margin: auto;position: relative;top: -20px;background-color: #ffffff;border-radius: 0px;border: 1px solid #b5b5b5;padding: 2px;}
-.lmt_con{width: 100%;height: auto;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;position: relative;}
-.lmt{width: 250px; height: 300px;display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 5px 10px;}
+.lmt_con{width: 100%;height: auto;display: flex;flex-wrap: wrap;justify-content: center;align-items: enter;position: relative;}
+.lmt{width: 250px; height: auto;display: lex;flex-direction: column;justify-content: center;align-items: center;margin: 10px 10px;}
 .lm img{height: 100%;margin: auto;border-radius: 5px;}
 .lm{width: 250px;height: 250px; border: 1px solid #b5b5b5;border-radius: 5px;}
 .lt{padding-top: 5px;}
