@@ -10,7 +10,7 @@
 }
 
    .slider-con img {
-    width: 120%;
+    width: 200%;
 }
 .ban{
     display: block;
@@ -135,9 +135,9 @@
         font-size:30px;
     }
     .slider-con .ban img {
-    width: 100%;
+    width: 150%;
     position: relative;
-    top: -63px;
+  
 }
 }
 @media(min-width:600px){
@@ -273,8 +273,9 @@
 @media(min-width:1150px){
     .slider-con .ban img {
         position: relative;
-    top: -200px;
-        width: 100%;
+  
+        width: auto;
+        height: 100%;
 }
     .txt-cap{
            position: absolute;
@@ -292,9 +293,7 @@
        
     }
 
-    .slider-con img{
-        height: auto;
-    }
+ 
     .cap-hd h1{
         font-size:30px;
     }
@@ -852,7 +851,7 @@ display: flex;}
 
 
 
-   .hdtxt{top: 30%;right: 10px;transform: translateY(-50%)}
+   .hdtxt{top: 50%;right: 10px;transform: translateY(-50%)}
 
 
 @media screen and (min-width:350px){
@@ -868,13 +867,13 @@ display: flex;}
 
 @media screen and (min-width:500px){
     
-  .hdtxt{font-size: 20px;width: 170px;}
+  .hdtxt{font-size: 20px;width: 170px;top: 120px;}
     .sidebg{width: 250px;}
     
 }
 
 @media screen and (min-width:600px){
-      .hdtxt{font-size: 20px;top: 30px;}
+      .hdtxt{font-size: 20px;top: 140px;}
     .sidebg{width: 240px;}
 
 }
